@@ -1,9 +1,16 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+  import HeroBunner from '@/components/HeroBunner.vue';
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+  <section>
+    <HeroBunner />
+  </section>
+  <section>
+    Hello!
+  </section>
 </template>
+
+<style scoped>
+
+</style>
